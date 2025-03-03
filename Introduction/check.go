@@ -1,7 +1,8 @@
-package main
+package check
 
 import "fmt"
 
-func main()  {
+func check(message string) {
+    fmt.Println(message)
     fmt.Println("Hello, World! from Suraj's MacBook Pro M4 Max") 
 }
