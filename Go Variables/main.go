@@ -12,4 +12,12 @@ func main() {
 	var mySalary float64 = 28044.00
 	fmt.Println(mySalary)
 
+
+	var myLove bool = true
+	fmt.Println(myLove)
+
+	var myChar byte = 'A'
+	fmt.Println(myChar)
+
+
 }
