@@ -19,5 +19,4 @@ func main() {
 	var myChar byte = 'A'
 	fmt.Println(myChar)
 
-
 }
