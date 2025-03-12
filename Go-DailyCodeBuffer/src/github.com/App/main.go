@@ -7,15 +7,33 @@ func main() {
 	// var i int = 10
 	// var j float64 = 20.5
 
-	//Type Conversion
-	var a = 10
-	var b float32 = float32(a)
+	// //Type Conversion
+	// var a = 10
+	// var b float32 = float32(a)
 
-	fmt.Println("Value of a is : ", a)
-	fmt.Println("Value of b is : ", b)
+	// c := 10.23
+	// t := true
 
-	fmt.Printf("%v,%T\n", a, a)
-	fmt.Printf("%v , %T\n", b, b)
+	str := "Hello"
+	char := 'A'
+
+	fmt.Println("Value of str is : ", str)
+	fmt.Println("Value of char is : ", char)
+
+	fmt.Printf("%v,%T\n", str, str)
+	fmt.Printf("%v , %T\n", char, char)
+
+	// fmt.Println("Value of a is : ", a)
+	// fmt.Println("Value of b is : ", b)
+
+	// fmt.Printf("%v,%T\n", a, a)
+	// fmt.Printf("%v , %T\n", b, b)
+
+	// fmt.Println("Value of c is : ", c)
+	// fmt.Println("Value of t is : ", t)
+
+	// fmt.Printf("%v,%T\n", c, c)
+	// fmt.Printf("%v , %T\n", t, t)
 
 	//fmt.Println("Value of i is : ", i)
 	//fmt.Println("Value of j is : ", j)
