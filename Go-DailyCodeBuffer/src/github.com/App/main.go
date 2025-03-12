@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
 func main() {
 
@@ -8,20 +11,27 @@ func main() {
 	// var j float64 = 20.5
 
 	// //Type Conversion
-	// var a = 10
+	var a = 10
+
+	var val string = strconv.Itoa(a)
+	fmt.Println(val)
+
 	// var b float32 = float32(a)
 
 	// c := 10.23
 	// t := true
 
-	str := "Hello"
-	char := 'A'
+	// str := "Hello World"
+	// char := 'A'
 
-	fmt.Println("Value of str is : ", str)
-	fmt.Println("Value of char is : ", char)
+	// var strNum string = string(char)
+	// fmt.Println("Value of strNum is : ", strNum)
 
-	fmt.Printf("%v,%T\n", str, str)
-	fmt.Printf("%v , %T\n", char, char)
+	// fmt.Println("Value of str is : ", str)
+	// fmt.Println("Value of char is : ", char)
+
+	// fmt.Printf("%v,%T\n", str, str)
+	// fmt.Printf("%v , %T\n", char, char)
 
 	// fmt.Println("Value of a is : ", a)
 	// fmt.Println("Value of b is : ", b)
