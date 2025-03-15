@@ -30,17 +30,29 @@ func main() {
 	fmt.Println(j)
 	fmt.Println(k)
 
+	fmt.Printf("%v,%T\n", i, i)
+	fmt.Printf("%v,%T\n", j, j)
+	fmt.Printf("%v,%T\n", k, k)
+
 	println("-----------------")
 	
 	fmt.Println(a)
 	fmt.Println(b)
 	fmt.Println(c)
+
+	fmt.Printf("%v,%T\n", a, a)
+	fmt.Printf("%v,%T\n", b, b)
+	fmt.Printf("%v,%T\n", c, c)
 	
 	println("-----------------")
 
 	fmt.Println(d)
 	fmt.Println(e)
 	fmt.Println(f)
+
+	fmt.Printf("%v,%T\n", d, d)
+	fmt.Printf("%v,%T\n", e, e)
+	fmt.Printf("%v,%T\n", f, f)
 
 
 
