@@ -19,3 +19,12 @@ complex64
 complex128
 
 
+Go Slice - is like vector<int> arr in C++ , the major difference is that it can append or can be executed dynamically ,mtlb isme aur values ko add kar sakte hai without tension of Capacity of an array , it can shrink accordingly 
+
+
+
+Slice -
+var a []int = []int {1,2,3}
+var b []int = append(a,5)   o/p - [1 2 3 5]
+var c []int = append(b,a...) o/p- [1 2 3 5 1 2 3]  
+
