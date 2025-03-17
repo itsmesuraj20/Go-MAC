@@ -1,7 +1,8 @@
 package main
 
-import(
+import (
 	"fmt"
+	"reflect"
 )
 
 func main() {
@@ -10,13 +11,15 @@ func main() {
 	//shopping := map[string] int {}
 
 	shopping = map[string] int {
-		"Apple": 10,
+		"Apple" : 10,
 		"Banana": 20,
 		"Orange": 30,
-		"Kiwi": 40,
+		"Kiwi"  : 40,
 	}
 
 	fmt.Println(shopping)
+	fmt.Println(len(shopping))
+	fmt.Println(reflect.TypeOf(shopping))
 	
 	fmt.Println(shopping["Apple"])
 	fmt.Println(shopping["Banana"])
@@ -26,5 +29,17 @@ func main() {
 	// Adding a new key-value pair
 	shopping["Mango"] = 50
 	fmt.Println(shopping)
+
+
+	fmt.Println(" ---------- ------------")
+	//check if a key exists
+	
+	_, ok := shopping["Apple"] // _ is a blank identifier , that will ignore the value of the key 
+	fmt.Println(ok)
+				//OR
+
+	cart, ok := shopping["Loan"]
+	fmt.Println(cart, ok)
+	
 	
 }
