@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import(
+	"fmt"
+)
 
 func main() {
 	// var arr[5]int = [5]int {1,2,3,4,5}
@@ -58,7 +60,24 @@ func main() {
 	// fmt.Println("newSlice5v2:",newSlice5v2)
 	// fmt.Println("newSlice6:",newSlice6)
 
+	//Slice Append
 
-	
+	var a []int = []int {1,2,3}
+	var b []int = append(a,5)    //o/p - [1 2 3 5]
+	var c []int = append(b,a...) //o/p- [1 2 3 5 1 2 3]  
+	var d []int = append(a,b...) //o/p- [1 2 3 1 2 3 5]
+	var e []int = append(a,a...) //o/p- [1 2 3 1 2 3]
+	var f []int = append(a,c...) //o/p- [1 2 3 1 2 3 5 1 2 3]
+	var g []int = append(a,d...) //o/p- [1 2 3 1 2 3 1 2 3 5]
+
+
+	fmt.Println("a:",a)
+	fmt.Println("b:",b)
+	fmt.Println("c:",c)
+	fmt.Println("d:",d)
+	fmt.Println("e:",e)
+	fmt.Println("f:",f)
+	fmt.Println("g:",g)
+
 
 }
