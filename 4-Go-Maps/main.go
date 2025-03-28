@@ -17,9 +17,9 @@ func main() {
 		"Kiwi"  : 40,
 	}
 
-	fmt.Println(shopping)
-	fmt.Println(len(shopping))
-	fmt.Println(reflect.TypeOf(shopping))
+	// fmt.Println(shopping)
+	// fmt.Println(len(shopping))
+	// fmt.Println(reflect.TypeOf(shopping))
 	
 	// fmt.Println(shopping["Apple"])
 	// fmt.Println(shopping["Banana"])
