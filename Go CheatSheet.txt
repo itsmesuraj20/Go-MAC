@@ -31,3 +31,5 @@ var c []int = append(b,a...) o/p- [1 2 3 5 1 2 3]
 
 Make function -
 ex-  var i []int  = make([string] int)
+
+Concurrency - 
