@@ -9,7 +9,7 @@ func main() {
 				//OR
 	//shopping := map[string] int {}
 
-	//Revision
+
 	shopping = map[string] int {
 		"Apple" : 10,
 		"Banana": 20,
