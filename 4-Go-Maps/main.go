@@ -22,7 +22,6 @@ func main() {
 	// fmt.Println(len(shopping))
 	// fmt.Println(reflect.TypeOf(shopping))
 	
-	
 	// fmt.Println(shopping["Apple"])
 	// fmt.Println(shopping["Banana"])
 	// fmt.Println(shopping["Orange"])
