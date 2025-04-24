@@ -42,6 +42,9 @@ func main() {
 	// cart, ok := shopping["Loan"]
 	// fmt.Println(cart, ok)
 	
+	// //Deleting a key-value pair
+	// delete(shopping, "Apple")
+	// fmt.Println(shopping)
 	sc := shopping
 	fmt.Println(shopping)
 	fmt.Println(sc)
