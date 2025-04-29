@@ -10,6 +10,7 @@ const (
 	k = iota
 
 )
+
 const (
 	a = iota
 	b
